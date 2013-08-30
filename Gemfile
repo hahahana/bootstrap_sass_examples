@@ -8,3 +8,7 @@ gem 'bootstrap-sass',  :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.
 
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
+
+group :production do
+  gem 'rails_12factor'
+end
