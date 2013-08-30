@@ -13,6 +13,6 @@ Bundler.require(:default, Rails.env)
 
 module BootstrapSassExamples
   class Application < Rails::Application
-    config.assets.precompile += %w(*.css *.png *.jpg *.jpeg *.gif)
+    config.assets.precompile += %w( app/assets/stylesheets/examples/*.css.scss app/assets/stylesheets/home.css.scss app/assets/images/favicon.png)
   end
 end
