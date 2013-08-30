@@ -3,10 +3,13 @@
 <head>
   <title>Bootstrap Examples</title>
   <%= stylesheet_link_tag "application", media: "all" %>
+  <%= yield :head %>
   <%= csrf_meta_tags %>
 </head>
 
+<body>
 <%= yield %>
+</body>
 
 <%= javascript_include_tag "application" %>
 
