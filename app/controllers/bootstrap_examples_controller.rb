@@ -7,4 +7,7 @@ class BootstrapExamplesController < ApplicationController
 
   def grid
   end
+
+  def jumbotron
+  end
 end

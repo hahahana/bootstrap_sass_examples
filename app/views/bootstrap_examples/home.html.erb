@@ -17,18 +17,14 @@
               <p>Nothing but the basics: compiled CSS and JavaScript along with a container.</p>
             </div>
             <div class="col-xs-6 col-md-4">
-              <a class="thumbnail" href="../examples/grid/">
-                <%= image_tag("examples/grid.jpg") %>
-              </a>
+              <%= link_to image_tag("examples/grid.jpg"), grid_path, class: 'thumbnail' %>
               <h4>Grids</h4>
               <p>Multiple examples of grid layouts with all four tiers, nesting, and more.</p>
             </div>
             <div class="clearfix visible-xs"></div>
 
             <div class="col-xs-6 col-md-4">
-              <a class="thumbnail" href="../examples/jumbotron/">
-                <%= image_tag("examples/jumbotron.jpg") %>
-              </a>
+              <%= link_to image_tag("examples/jumbotron.jpg"), jumbotron_path, class: 'thumbnail' %>
               <h4>Jumbotron</h4>
               <p>Build around the jumbotron with a navbar and some basic grid columns.</p>
             </div>
@@ -106,9 +102,7 @@
             <div class="clearfix visible-xs"></div>
 
             <div class="col-xs-6 col-md-4">
-              <a class="thumbnail" href="../examples/carousel/">
-                <%= image_tag("examples/carousel.jpg") %>
-              </a>
+              <%= link_to image_tag("examples/carousel.jpg"), carousel_path, class: 'thumbnail' %>
               <h4>Carousel</h4>
               <p>Customize the navbar and carousel, then add some new components.</p>
             </div>
