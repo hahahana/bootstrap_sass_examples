@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>Bootstrap Examples</title>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag "favicon.png"%>
   <%= stylesheet_link_tag "application", media: "all" %>
   <%= yield :head %>
-  <%= csrf_meta_tags %>
 </head>
 
 <body>
