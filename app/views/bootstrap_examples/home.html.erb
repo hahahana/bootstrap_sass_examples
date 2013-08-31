@@ -11,9 +11,7 @@
 
         <div class="row bs-examples">
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/starter-template/">
-              <%= image_tag("examples/starter-template.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/starter-template.jpg"), starter_template_path, class: 'thumbnail' %>
             <h4>Starter template</h4>
             <p>Nothing but the basics: compiled CSS and JavaScript along with a container.</p>
           </div>
@@ -54,7 +52,7 @@
             <p>Super basic template with a fixed top navbar along with some additional content.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <%= link_to image_tag("examples/sign-in.jpg"), signinpath, class: 'thumbnail' %>
+            <%= link_to image_tag("examples/sign-in.jpg"), signin_path, class: 'thumbnail' %>
             <h4>Sign-in page</h4>
             <p>Custom form layout and design for a simple sign in form.</p>
           </div>

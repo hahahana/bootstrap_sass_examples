@@ -10,6 +10,7 @@ BootstrapSassExamples::Application.routes.draw do
   get 'nonresponsive', to: 'bootstrap_examples#nonresponsive'
   get 'offcanvas', to: 'bootstrap_examples#offcanvas'
   get 'signin', to: 'bootstrap_examples#signin'
+  get 'starter_template', to: 'bootstrap_examples#starter_template'
   root 'bootstrap_examples#home'
 end
  

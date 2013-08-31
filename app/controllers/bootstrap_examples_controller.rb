@@ -34,4 +34,7 @@ class BootstrapExamplesController < ApplicationController
 
   def signin
   end
+
+  def starter_template
+  end
 end
