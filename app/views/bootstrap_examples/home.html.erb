@@ -64,9 +64,7 @@
             <p>Attach a footer to the bottom of the viewport when the content is shorter than it.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/sticky-footer-navbar/">
-              <%= image_tag("examples/sticky-footer-navbar.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/sticky-footer-navbar.jpg"), sticky_footer_navbar_path, class: 'thumbnail' %>
             <h4>Sticky footer with navbar</h4>
             <p>Attach a footer to the bottom of the viewport with a fixed navbar at the top.</p>
           </div>
@@ -91,16 +89,13 @@
           </div>
           <div class="col-xs-6 col-md-4">
             <%= link_to image_tag("examples/non-responsive.jpg"), nonresponsive_path, class: 'thumbnail' %>
-            </a>
             <h4>Non-responsive Bootstrap</h4>
             <p>Easily disable the responsiveness of Bootstrap <a href="../getting-started/#disable-responsive">per our docs</a>.</p>
           </div>
           <div class="clearfix visible-xs"></div>
 
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/theme/">
-              <%= image_tag("examples/theme.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/theme.jpg"), theme_path, class: 'thumbnail' %>
             <h4>Bootstrap theme</h4>
             <p>Load the optional Bootstrap theme for a visually enhanced experience.</p>
           </div>

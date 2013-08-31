@@ -12,6 +12,8 @@ BootstrapSassExamples::Application.routes.draw do
   get 'signin', to: 'bootstrap_examples#signin'
   get 'starter_template', to: 'bootstrap_examples#starter_template'
   get 'sticky_footer', to: 'bootstrap_examples#sticky_footer'
+  get 'sticky_footer_navbar', to: 'bootstrap_examples#sticky_footer_navbar'
+  get 'theme', to: 'bootstrap_examples#theme'
   root 'bootstrap_examples#home'
 end
  

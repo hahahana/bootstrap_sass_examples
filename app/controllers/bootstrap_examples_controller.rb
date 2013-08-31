@@ -40,4 +40,10 @@ class BootstrapExamplesController < ApplicationController
 
   def sticky_footer
   end
+
+  def sticky_footer_navbar
+  end
+
+  def theme
+  end
 end
