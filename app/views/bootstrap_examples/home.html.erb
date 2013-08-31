@@ -51,9 +51,7 @@
           <div class="clearfix visible-xs"></div>
 
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/navbar-fixed-top/">
-              <%= image_tag("examples/navbar-fixed.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/navbar-fixed.jpg"), navbar_fixed_top_path, class: 'thumbnail' %>
             <h4>Fixed navbar</h4>
             <p>Super basic template with a fixed top navbar along with some additional content.</p>
           </div>
