@@ -37,4 +37,7 @@ class BootstrapExamplesController < ApplicationController
 
   def starter_template
   end
+
+  def sticky_footer
+  end
 end

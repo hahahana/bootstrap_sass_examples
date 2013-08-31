@@ -59,9 +59,7 @@
           <div class="clearfix visible-xs"></div>
 
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/sticky-footer/">
-              <%= image_tag("examples/sticky-footer.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/sticky-footer.jpg"), sticky_footer_path, class: 'thumbnail' %>
             <h4>Sticky footer</h4>
             <p>Attach a footer to the bottom of the viewport when the content is shorter than it.</p>
           </div>

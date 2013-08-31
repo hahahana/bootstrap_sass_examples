@@ -11,6 +11,7 @@ BootstrapSassExamples::Application.routes.draw do
   get 'offcanvas', to: 'bootstrap_examples#offcanvas'
   get 'signin', to: 'bootstrap_examples#signin'
   get 'starter_template', to: 'bootstrap_examples#starter_template'
+  get 'sticky_footer', to: 'bootstrap_examples#sticky_footer'
   root 'bootstrap_examples#home'
 end
  
