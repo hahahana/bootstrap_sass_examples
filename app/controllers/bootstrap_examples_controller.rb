@@ -26,9 +26,12 @@ class BootstrapExamplesController < ApplicationController
   def navbar_static_top
   end
 
-  def non_responsive
+  def nonresponsive
   end
 
   def offcanvas
+  end
+
+  def signin
   end
 end

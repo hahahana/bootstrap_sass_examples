@@ -54,9 +54,7 @@
             <p>Super basic template with a fixed top navbar along with some additional content.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/signin/">
-              <%= image_tag("examples/sign-in.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/sign-in.jpg"), signinpath, class: 'thumbnail' %>
             <h4>Sign-in page</h4>
             <p>Custom form layout and design for a simple sign in form.</p>
           </div>
@@ -84,9 +82,7 @@
             <p>Expand on the default navbar and more to create justified navigation links.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/offcanvas/">
-              <%= image_tag("examples/offcanvas.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/offcanvas.jpg"), offcanvas_path, class: 'thumbnail' %>
             <h4>Offcanvas</h4>
             <p>Build a toggleable off-canvas navigation menu for use with Bootstrap.</p>
           </div>
