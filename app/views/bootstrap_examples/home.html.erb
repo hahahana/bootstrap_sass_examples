@@ -42,9 +42,7 @@
             <p>Super basic template that includes the navbar along with some additional content.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/navbar-static-top/">
-              <%= image_tag("examples/navbar-static.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/navbar-static.jpg"), navbar_static_top_path, class: 'thumbnail' %>
             <h4>Static top navbar</h4>
             <p>Super basic template with a static top navbar along with some additional content.</p>
           </div>
