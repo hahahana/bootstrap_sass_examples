@@ -7,6 +7,7 @@ BootstrapSassExamples::Application.routes.draw do
   get 'navbar', to: 'bootstrap_examples#navbar'
   get 'navbar_fixed_top', to: 'bootstrap_examples#navbar_fixed_top'
   get 'navbar_static_top', to: 'bootstrap_examples#navbar_static_top'
+  get 'nonresponsive', to: 'bootstrap_examples#nonresponsive'
   root 'bootstrap_examples#home'
 end
  
