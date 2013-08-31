@@ -4,6 +4,7 @@ BootstrapSassExamples::Application.routes.draw do
   get 'jumbotron', to: 'bootstrap_examples#jumbotron'
   get 'jumbotron_narrow', to: 'bootstrap_examples#jumbotron_narrow'
   get 'justified_nav', to: 'bootstrap_examples#justified_nav'
+  get 'navbar', to: 'bootstrap_examples#navbar'
   root 'bootstrap_examples#home'
 end
  
