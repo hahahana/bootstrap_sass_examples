@@ -30,9 +30,7 @@
             <p>Build around the jumbotron with a navbar and some basic grid columns.</p>
           </div>
           <div class="col-xs-6 col-md-4">
-            <a class="thumbnail" href="../examples/jumbotron-narrow/">
-              <%= image_tag("examples/jumbotron-narrow.jpg") %>
-            </a>
+            <%= link_to image_tag("examples/jumbotron-narrow.jpg"), jumbotron_narrow_path, class: 'thumbnail' %>
             <h4>Narrow jumbotron</h4>
             <p>Build a more custom page by narrowing the default container and jumbotron.</p>
           </div>
