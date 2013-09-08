@@ -1,28 +1,9 @@
-== README
+A quick and dirty to show how simple it is to use the bootstrap-sass gem's [3.0.0 branch](https://github.com/thomas-mcdonald/bootstrap-sass/tree/3) in a Rails (4) app. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a collection of all the examples found on the [official page](http://getbootstrap.com/getting-started/#examples), rejiggered to be more Rails-y. 
 
-Things you may want to cover:
+In the interest of preserve the original file structure of the [source](https://github.com/twbs/bootstrap/tree/master/examples) as much as possible, I created an examples folder in both the stylesheets and javascripts folder to hold example specific files. At the beginning of every example view, the specific stylesheet is included, and at the bottom, the specific javascript is included (save for bootstrap.js and jQuery, which were ubiquitous enough to add to application.js).
 
-* Ruby version
+Most likely there is really never a use case to use all of the templates all at once and the examples_controller is not doing much at all, but this is just meant to be a sample of the power of the bootstrap-sass gem and a playground of sorts (test out overriding variables, plugins, etc.). 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+A hosted version of the app can be found [here](http://bootstrap-sass-rails.herokuapp.com/).
